@@ -427,7 +427,7 @@
 
         darkLight: function () {
             var styleMode = document.querySelector('meta[name="theme-style-mode"]').content;
-            var cookieKey = styleMode == 1 ? 'client_dark_mode_style_cookie' : 'client_light_mode_style_cookie';
+            var cookieKey = styleMode == 0 ? 'client_dark_mode_style_cookie' : 'client_light_mode_style_cookie';
             if (Cookies.get(cookieKey) == 'dark') {
                 $('body').removeClass('active-light-mode');
                 $('body').addClass('active-dark-mode');
@@ -437,7 +437,7 @@
                 $('body').addClass('active-light-mode');
 
             } else {
-                if(styleMode == 1){
+                if(styleMode == 0){
                     $('body').addClass('active-dark-mode');
                 } else{
                     $('body').addClass('active-light-mode');
