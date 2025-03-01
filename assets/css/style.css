@@ -9018,7 +9018,7 @@ xclip
 @media only screen and (max-width: 767px) {
   .header-default a.btn-default.btn-small,
 .header-default button.btn-default.btn-small {
-    height: 36px;
+    height: 38px;
     line-height: 35px;
     padding: 0 10px;
     font-size: 12px;
