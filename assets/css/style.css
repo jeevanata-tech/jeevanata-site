@@ -14531,8 +14531,7 @@ iframe {
 
 .slider-area .inner a.btn-default.btn-border,
 .slider-area .inner button.btn-default.btn-border {
-  border-color: rgb(122, 118, 118);
-  color: var(--color-white);
+  border-color: rgb(185, 202, 226);
 }
 
 /*-----------------------
